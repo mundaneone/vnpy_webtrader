@@ -1,7 +1,7 @@
 from enum import Enum
 from typing import Any, List, Optional, Union
 import asyncio
-import json
+import simplejson as json
 from datetime import datetime, timedelta
 from dataclasses import dataclass
 import secrets
